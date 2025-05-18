@@ -32,6 +32,20 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.profile-pic-container {
+  text-align: center;  /* center the image */
+  margin-bottom: 15px; /* space below the image */
+}
+
+.profile-pic {
+  width: 120px;           /* size of the image */
+  height: 120px;          /* keep it square */
+  border-radius: 50%;     /* make it circular */
+  object-fit: cover;      /* crop nicely */
+  border: 3px solid #ccc; /* optional border */
+  box-shadow: 0 0 8px rgba(0,0,0,0.2); /* optional shadow */
+}
+
 
 ol, ul {
 	list-style: none;
